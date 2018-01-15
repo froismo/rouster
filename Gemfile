@@ -1,8 +1,7 @@
-ruby '2.0.0'
 
 source 'https://rubygems.org'
 
-gem 'json'
+gem 'json', '>= 1.8.3'
 gem 'log4r', '~> 1.1.9'
 gem 'net-scp', '= 1.2.1'
 gem 'net-ssh', '= 2.9.4'
@@ -14,4 +13,5 @@ group :development do
 end
 
 gem 'fog', '= 1.24.0', :groups => [:aws, :openstack]
+gem 'nokogiri', '~> 1.8.1'
 
